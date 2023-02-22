@@ -1,0 +1,15 @@
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+.containerImage {
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  position: relative;
+  overflow: hidden;
+  height: 10em;
+}
+.image{
+  object-fit: cover
+}
